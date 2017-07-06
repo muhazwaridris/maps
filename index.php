@@ -20,7 +20,7 @@
 
   <body>
   <?PHP
-    include "koneksi.php"
+    include "conn.php"
   ?>
     <div id="map"></div>
 
