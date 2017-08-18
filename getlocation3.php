@@ -19,16 +19,19 @@
     margin-bottom: 5px;
   }
   </style>
-<button onclick="viewOnMap()">View On Map</button>
+<button onclick="viewOnMap()">View on Map</button>
 
 <script>
 function viewOnMap() {
-    window.open("getlocation3.1.php", "", "width=520,height=570");
+    window.open("getlocation3.1.php", "Tentukan lokasi anda", "width=520,height=570");
+    
 }
 </script>
 <div id="infoPanel">
-  <input type="text" name="Latitude" id="Latitude" placeholder="Latitude">
-  <input type="text" name="Longitude" id="Longitude" placeholder="Longitude">
+  <b>Lat:</b>
+    <input type="text" name="Latitude" id="Latitude" placeholder="Latitude" value="">
+    <b>Lng:</b>
+    <input type="text" name="Longitude" id="Longitude" placeholder="Longitude" value="">
   </div>
 </body>
 </html>
